@@ -1,0 +1,33 @@
+:root {
+    --main-text-color: #757575;
+    /*основной цвет текста на сайте*/
+    --primary-first-text-color: #FFFFFF;
+    /*второй цвет текста на сайте*/
+    --primary-second-text-color: #212121;
+    /*третий цвет текста на сайте*/
+    --accent-color: #2196F3;
+    /*акцент цвета*/
+    --main-background-color: #FFFFFF;
+    /*главный цвет-заливки сайта*/
+    --primary-background-color: #2F303A;
+    /*цвет заливки для fouter и hero*/
+    --primary-team-background-color: #F5F4FA;
+    /*цвет заливки team*/
+    --main-btn-background: #2196F3;
+    /*заливка кнопки*/
+    --foter-mail-color: rgba(255, 255, 255, 0.6);
+    /*цвет мейла и телефона в футоре*/
+    --icon-color: #AFB1B8;
+    /*цвет для иконки*/
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    /*подкл. главного шрифта на сайте*/
+    font-size: 14px;
+    /*подкл. размера шрифта на сайте*/
+    background: var(--main-background-color);
+    /*главная заливка*/
+    color: var(--main-text-color);
+    /*главный цвет шрифта*/
+}

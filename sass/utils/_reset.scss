@@ -1,0 +1,42 @@
+/*сбрасывает стили*/
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+/*убирает точки в списке*/
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+/*убирает подчеркивания в ссылках*/
+a {
+  text-decoration: none;
+}
+
+/*сбрасывает стили на картинках*/
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  display: none;
+}
+
+header {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+.block {
+  display: block;
+}

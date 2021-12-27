@@ -1,0 +1,26 @@
+//utils
+@import './utils/reset';
+@import './utils/variables';
+
+//common
+@import './common/button';
+@import './common/container';
+@import './common/current';
+@import './common/logo';
+@import './common/modal';
+@import './common/section';
+@import './common/social';
+@import './common/visually-hidden';
+
+//components
+@import './components/clients';
+@import './components/details';
+@import './components/doing';
+@import './components/filter';
+@import './components/footer-form';
+@import './components/footer';
+@import './components/gallery';
+@import './components/header';
+@import './components/hero';
+@import './components/modal-form';
+@import './components/team';
