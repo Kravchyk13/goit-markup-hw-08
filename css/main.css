@@ -20,12 +20,11 @@ a {
 }
 
 /*сбрасывает стили на картинках*/
-img {
+/*img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
+}*/
 /*section {
   display: none;
 }
@@ -1003,14 +1002,20 @@ body {
   padding: 118px 0;
   margin: 0 auto;
   background-color: var(--primary-background-color);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-background-mob-1x.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-background-mob-1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media screen and (min-width: 100px) {
+  .hero {
+    background-color: var(--primary-background-color);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-background-mob-1x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-background-mob-1x.jpg);
+  }
+}
+
+@media screen and (min-width: 100px) and (min-device-pixel-ratio: 2), screen and (min-width: 100px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 100px) and (min-resolution: 192dpi), screen and (min-width: 100px) and (min-resolution: 2dppx) {
   .hero {
     background-color: var(--primary-background-color);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-background-mob-2px.jpg);

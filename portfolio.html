@@ -22,12 +22,20 @@
     
 <!----------------------------HEADER ----------------------------------------------->
 
+<!----------------------------HEADER ----------------------------------------------->
+
 <header class="header">
     <div class="container header__container">
+        <a href="./index.html" class="logo logo__header">Web<span class="logo__dark">Studio</span></a>
+        <button type="button" class="open-menu-btn js-open-menu">
+            <svg class="mobile__icon" width="40" height="40">
+                <use href="./images/symbol-defs.svg#icon-menu_mobile"></use>
+            </svg>
+        </button>
         <nav class="navigation">
-            <a href="./index.html" class="logo logo__header">Web<span class="logo__dark">Studio</span></a>
             <ul class="navigation__list">
-                <li class="navigation__item"><a class="navigation__link" href="./index.html">Студия</a></li>
+                <li class="navigation__item"><a class="navigation__link"
+                        href="./index.html">Студия</a></li>
                 <li class="navigation__item"><a class="navigation__link navigation__link--current" href="./portfolio.html">Портфолио</a></li>
                 <li class="navigation__item"><a class="navigation__link" href="#">Контакты</a></li>
             </ul>
@@ -51,6 +59,58 @@
             </li>
         </ul>
     </div>
+    <!----------------------Mobile menu------------------>
+
+    <div class="mobile-menu js-menu-container">
+        <div class="mobile__container">
+            <div class="mobile__menu--top">
+                <button type="button" class="close-menu-btn js-close-menu">
+                    <svg class="mobile__icon" width="40" height="40">
+                        <use href="./images/symbol-defs.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <nav class="mobile__navigation">
+                    <ul class="mobile__list">
+                        <li class="mobile__item"><a class="mobile__link" href="./index.html">Студия</a></li>
+                        <li class="mobile__item"><a class="mobile__link" href="./portfolio.html">Портфолио</a></li>
+                        <li class="mobile__item"><a class="mobile__link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="mobile__container">
+                <ul class="mobile__contacts">
+                    <li class="mobile__contacts--item">
+                        <a class="mobile__contacts--link" href="tel:+380991111111">
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                    <li class="mobile__contacts--item">
+                        <a class="mobile__contacts--link-dark" href="mailto:info@example.com">
+                            info@devstudio.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile__menu--bottom">
+                <ul class="mobile__social">
+                    <li class="mobile__social--item">
+                        <a class="mobile__social--link" href="#">Instagram</a>
+                    </li>
+                    <li class="mobile__social--item">
+                        <a class="mobile__social--link" href="#">Twitter</a>
+                    </li>
+                    <li class="mobile__social--item">
+                        <a class="mobile__social--link" href="#">Facebook</a>
+                    </li>
+                    <li class="mobile__social--item">
+                        <a class="mobile__social--link" href="#">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
 </header>
 
      <!------------------Gallery section--------------------------------->
