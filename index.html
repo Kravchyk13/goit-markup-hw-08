@@ -178,19 +178,32 @@
             <h2 class="section__title">Чем мы занимаемся</h2>
             <ul class="doing__list">
                 <li class="doing__item">
-                    <img src="images/work_1.jpg" alt="work1" width="370">
+                   
+                    <picture>
+                        <source srcset="./images/work1_desk1x-min.webp 1x, ./images/work1_desk2x-min.webp 2x" type="image/webp" />
+                        <source srcset="./images/work1_desk1x-min.jpg 1x, ./images/work1_desk2x-min.jpg 2x" type="image/jpeg" />
+                        <img src="./images/work1_desk1x-min.jpg" alt="work 1" width="370" />
+                    </picture>
                     <div class="doing__box">
                         <p class="doing__text">Десктопные приложения</p>
                     </div>
                 </li>
                 <li class="doing__item">
-                    <img src="images/work_2.jpg" alt="work2" width="370">
+                    <picture>
+                        <source srcset="./images/work2_desk1x-min.webp 1x, ./images/work2_desk2x-min.webp 2x" type="image/webp" />
+                        <source srcset="./images/work2_desk1x-min.jpg 1x,  ./images/work2_desk2x-min.jpg 2x" type="image/jpeg" />
+                        <img src="./images/work2_desk1x-min.jpg" alt="work 1" width="370" />
+                    </picture>
                     <div class="doing__box">
                         <p class="doing__text">Мобильные приложения</p>
                     </div>
                 </li>
-                <li class="doing__item">
-                    <img src="images/work_3.jpg" alt="work3" width="370">
+                <li class="doing__item"><picture>
+                    <picture>
+                        <source srcset="./images/work3_desk1x-min.webp 1x, ./images/work3_desk2x-min.webp 2x" type="image/webp" />
+                        <source srcset="./images/work3_desk1x-min.jpg 1x,  ./images/work3_desk2x-min.jpg 2x" type="image/jpeg" />
+                        <img src="./images/work3_desk1x-min.jpg" alt="work 1" width="370" />
+                    </picture>
                     <div class="doing__box">
                         <p class="doing__text">Дизайнерские решения</p>
                     </div>
@@ -204,21 +217,21 @@
             <h2 class="section__title">Наша команда</h2>
             <ul class="team">
                 <li class="team__item">
-                    <picture>
-                        <source srcset="
-                                                            ./images/igor-min.jpg   1x,
-                                                            ./images/igor-min2x.jpg 2x
-                                                        " media="(min-width: 1200px)" />
-                        <source srcset="
-                                                            ./images/igor-tab-1x.jpg 1x,
-                                                            ./images/igor-tab-2x.jpg 2x
-                                                        " media="(min-width: 768px)" />
-                        <source srcset="
-                                                            ./images/igor-mob-1x.jpg 1x,
-                                                            ./images/igor-mob-2x.jpg 2x
-                                                        " media="(min-width: 480px)" />
-                        <img src="./images/igor-min.jpg" alt="igor" class="team__img">
-                    </picture>
+                <picture>
+                    <source srcset="./images/igor_mob1x-min.webp 1x, ./images/igor_mob2x-min.webp 2x" type="image/webp" 
+                    media="(min-width: 480px) and (max-width: 767px)"/>
+                    <source srcset="./images/igor_mob1x-min.jpg 1x,  ./images/igor_mob2x-min.jpg 2x" type="image/jpeg"
+                     media="(min-width: 480px) and (max-width: 767px)"/>
+                    <source srcset="./images/igor_tab1x-min.webp 1x, ./images/igor_tab2x-min.webp 2x" type="image/webp"
+                        media="(min-width: 768px) and (max-width: 1199px)" />
+                    <source srcset="./images/igor_tab1x-min.jpg 1x,  ./images/igor_tab2x-min.jpg 2x" type="image/jpeg"
+                        media="(min-width: 768px) and (max-width: 1199px)" />
+                    <source srcset="./images/igor_desk1x-min.webp 1x, ./images/igor_desk2x-min.webp 2x" type="image/webp"
+                     media="(min-width: 1200px)"/>
+                    <source srcset="./images/igor_desk1x-min.jpg 1x,  ./images/igor_desk2x-min.jpg 2x" type="image/jpeg"
+                     media="(min-width: 1200px)"/>
+                    <img src="./images/igor_desk1x-min.jpg" alt="igor"  width="270" />
+                </picture>
                    
                     <div class="team__thumb">
                         <h3 class="team__title">Игорь Демьяненко</h3>
@@ -258,19 +271,19 @@
                 </li>
                 <li class="team__item">
                     <picture>
-                        <source srcset="
-                                            ./images/olga-min.jpg  1x,
-                                            ./images/olga-min-2x.jpg  2x
-                                        " media="(min-width: 1200px)" />
-                        <source srcset="
-                                            ./images/olga-tab-1x.jpg 1x,
-                                            ./images/olga-tab-2x.jpg 2x
-                                        " media="(min-width: 768px)" />
-                        <source srcset="
-                                            ./images/olga-mob-1x.jpg 1x,
-                                            ./images/olga-mob-2x.jpg 2x
-                                        " media="(min-width: 480px)" />
-                        <img src="./images/olga-min.jpg" alt="olga" class="team__img">
+                        <source srcset="./images/olga_mob1x-min.webp 1x, ./images/olga_mob2x-min.webp 2x" type="image/webp"
+                            media="(min-width: 480px)" />
+                        <source srcset="./images/olga_mob1x-min.jpg 1x,  ./images/olga_mob2x-min.jpg 2x" type="image/jpeg"
+                            media="(min-width: 480px)" />
+                        <source srcset="./images/olga_tab1x-min.webp 1x, ./images/olga_tab2x-min.webp 2x" type="image/webp"
+                            media="(min-width: 768px)" />
+                        <source srcset="./images/olga_tab1x-min.jpg 1x,  ./images/olga_tab2x-min.jpg 2x" type="image/jpeg"
+                            media="(min-width: 768px)" />
+                        <source srcset="./images/olga_desk1x-min.webp 1x, ./images/olga_desk2x-min.webp 2x" type="image/webp"
+                            media="(min-width: 1200px)" />
+                        <source srcset="./images/olga_desk1x-min.jpg 1x,  ./images/olga_desk2x-min.jpg 2x" type="image/jpeg"
+                            media="(min-width: 1200px)" />
+                        <img src="./images/olga_desk1x-min.jpg" alt="olga" width="270" />
                     </picture>
                    
                     <div class="team__thumb">
@@ -310,21 +323,21 @@
                     </div>
                 </li>
                 <li class="team__item">
-                    <picture>
-                        <source srcset="
-                                            ./images/nikolay-min.jpg  1x,
-                                            ./images/nikolay-min-2x.jpg 2x
-                                        " media="(min-width: 1200px)" />
-                    <source srcset="
-                                            ./images/nikolay-tab-1x.jpg 1x,
-                                            ./images/nikolay-tab-2x.jpg 2x
-                                        " media="(min-width: 768px)" />
-                    <source srcset="
-                                            ./images/nikolay-mob-1x.jpg 1x,
-                                            ./images/nikolay-mob-2x.jpg 2x
-                                        " media="(min-width: 480px)" />
-                        <img src="./images/nikolay-min.jpg" alt="nikolay" class="team__img">
-                    </picture>
+                <picture>
+                    <source srcset="./images/nikolay_mob1x-min.webp 1x, ./images/nikolay_mob2x-min.webp 2x" type="image/webp"
+                        media="(min-width: 480px)" />
+                    <source srcset="./images/nikolay_mob1x-min.jpg 1x,  ./images/nikolay_mob2x-min.jpg 2x" type="image/jpeg"
+                        media="(min-width: 480px)" />
+                    <source srcset="./images/nikolay_tab1x-min.webp 1x, ./images/nikolay_tab2x-min.webp 2x" type="image/webp"
+                        media="(min-width: 768px)" />
+                    <source srcset="./images/nikolay_tab1x-min.jpg 1x,  ./images/nikolay_tab2x-min.jpg 2x" type="image/jpeg"
+                        media="(min-width: 768px)" />
+                    <source srcset="./images/nikolay_desk1x-min.webp 1x, ./images/nikolay_desk2x-min.webp 2x" type="image/webp"
+                        media="(min-width: 1200px)" />
+                    <source srcset="./images/nikolay_desk1x-min.jpg 1x,  ./images/nikolay_desk2x-min.jpg 2x" type="image/jpeg"
+                        media="(min-width: 1200px)" />
+                    <img src="./images/nikolay_desk1x-min.jpg" alt="nikolay" width="270" />
+                </picture>
                    
                     <div class="team__thumb">
                         <h3 class="team__title">Николай Тарасов</h3>
@@ -364,19 +377,19 @@
                 </li>
                 <li class="team__item">
                     <picture>
-                        <source srcset="
-                                                    ./images/misha-min.jpg 1x,
-                                                    ./images/misha-min-2x.jpg 2x
-                                                " media="(min-width: 1200px)" />
-                        <source srcset="
-                                                    ./images/misha-tab-1x.jpg  1x,
-                                                    ./images/misha-tab-2x.jpg  2x
-                                                " media="(min-width: 768px)" />
-                        <source srcset="
-                                                    ./images/misha-mob-1x.jpg 1x,
-                                                    ./images/misha-mob-2x.jpg 2x
-                                                " media="(min-width: 480px)" />
-                    <img src="./images/misha-min.jpg" alt="misha" class="team__img">
+                        <source srcset="./images/misha_mob1x-min.webp 1x, ./images/misha_mob2x-min.webp 2x" type="image/webp"
+                            media="(min-width: 480px)" />
+                        <source srcset="./images/misha_mob1x-min.jpg 1x,  ./images/misha_mob2x-min.jpg 2x" type="image/jpeg"
+                            media="(min-width: 480px)" />
+                        <source srcset="./images/misha_tab1x-min.webp 1x, ./images/misha_tab2x-min.webp 2x" type="image/webp"
+                            media="(min-width: 768px)" />
+                        <source srcset="./images/misha_tab1x-min.jpg 1x,  ./images/misha_tab2x-min.jpg 2x" type="image/jpeg"
+                            media="(min-width: 768px)" />
+                        <source srcset="./images/misha_desk1x-min.webp 1x, ./images/misha_desk2x-min.webp 2x" type="image/webp"
+                            media="(min-width: 1200px)" />
+                        <source srcset="./images/misha_desk1x-min.jpg 1x,  ./images/misha_desk2x-min.jpg 2x" type="image/jpeg"
+                            media="(min-width: 1200px)" />
+                        <img src="./images/misha_desk1x-min.jpg" alt="misha" width="270" />
                     </picture>
                     <div class="team__thumb">
                         <h3 class="team__title">Михаил Ермаков</h3>
