@@ -34,7 +34,7 @@
         </button>
         <nav class="navigation">
             <ul class="navigation__list">
-                <li class="navigation__item"><a class="navigation__link"
+                <li class="navigation__item"><a class="navigation__link "
                         href="./index.html">Студия</a></li>
                 <li class="navigation__item"><a class="navigation__link navigation__link--current" href="./portfolio.html">Портфолио</a></li>
                 <li class="navigation__item"><a class="navigation__link" href="#">Контакты</a></li>
@@ -72,7 +72,7 @@
                 <nav class="mobile__navigation">
                     <ul class="mobile__list">
                         <li class="mobile__item"><a class="mobile__link" href="./index.html">Студия</a></li>
-                        <li class="mobile__item"><a class="mobile__link" href="./portfolio.html">Портфолио</a></li>
+                        <li class="mobile__item"><a class="mobile__link mobile__link--current" href="./portfolio.html">Портфолио</a></li>
                         <li class="mobile__item"><a class="mobile__link" href="#">Контакты</a></li>
                     </ul>
                 </nav>
@@ -109,13 +109,11 @@
             </div>
         </div>
     </div>
-
-
 </header>
 
      <!------------------Gallery section--------------------------------->
 <main>
-    <section class="section block">
+    <section class="section">
             <div class="container">
             <h1 class="visually-hidden">Gallery</h1>
                 <ul class="filter">
@@ -140,19 +138,19 @@
                         <a href="#" class="gallery__link">                                
                             <div class="gallery__box">
                                 <picture>
-                                    <source srcset="
-                                                        ./images/tehno-min.jpg 1x,
-                                                        ./images/tehno-min.jpg 2x
-                                                    " media="(max-width: 1200px)" />
-                                    <source srcset="
-                                                        ./images/tehno-tab-1x.jpg  1x,
-                                                        ./images/tehno-tab-2x.jpg  2x
-                                                    " media="(max-width: 768px)" />
-                                    <source srcset="
-                                                        ./images/tehno-mob-1x.jpg 1x,
-                                                        ./images/tehno-mob-2x.jpg 2x
-                                                    " media="(max-width: 480px)" />
-                                <img src="./images/tehno-min.jpg" alt="" class="gallery__img">
+                                    <source srcset="./images/tehno_mob1x-min.webp 1x, ./images/tehno_mob2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 480px)" />
+                                    <source srcset="./images/tehno_mob1x-min.jpg 1x,  ./images/tehno_mob2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 480px)" />
+                                    <source srcset="./images/tehno_tab1x-min.webp 1x, ./images/tehno_tab2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 768px) " />
+                                    <source srcset="./images/tehno_tab1x-min.jpg 1x,  ./images/tehno_tab2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/tehno_desk1x-min.webp 1x, ./images/tehno_desk2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 1200px)" />
+                                    <source srcset="./images/tehno_desk1x-min.jpg 1x,  ./images/tehno_desk2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 1200px)" />
+                                    <img src="./images/tehno_desk1x-min.jpg" alt="igor" />
                                 </picture>
                                 
                                 <div class="gallery__overlay">
@@ -164,28 +162,28 @@
                             </div>
                             <div class="gallery__trumb">
                                 <h2 class="gallery__title">Технокряк</h2>
-                                <p class="galler__text">Веб-сайт</p>
+                                <p class="gallery__text">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
                     <li  class="gallery__item">
                         <a href="#" class="gallery__link">
                             <div class="gallery__box">
-                                <picture>
-                                    <source srcset="
-                                                                ./images/poster-min.jpg 1x,
-                                                                ./images/poster-min.jpg 2x
-                                                            " media="(max-width: 1200px)" />
-                                    <source srcset="
-                                                                ./images/poster-tab-1x.jpg  1x,
-                                                                ./images/poster-tab-2x.jpg  2x
-                                                            " media="(max-width: 768px)" />
-                                    <source srcset="
-                                                                ./images/poster-mob-1x.jpg 1x,
-                                                                ./images/poster-mob-2x.jpg 2x
-                                                            " media="(max-width: 480px)" />
-                                    <img src="./images/poster-min.jpg" alt="" width="370" class="gallery__img">
-                                </picture>
+                            <picture>
+                                <source srcset="./images/poster_mob1x-min.webp 1x, ./images/poster_mob2x-min.webp 2x" type="image/webp"
+                                    media="(min-width: 480px)" />
+                                <source srcset="./images/poster_mob1x-min.jpg 1x,  ./images/poster_mob2x-min.jpg 2x" type="image/jpeg"
+                                    media="(min-width: 480px)" />
+                                <source srcset="./images/poster_tab1x-min.webp 1x, ./images/poster_tab2x-min.webp 2x" type="image/webp"
+                                    media="(min-width: 768px) " />
+                                <source srcset="./images/poster_tab1x-min.jpg 1x,  ./images/poster_tab2x-min.jpg 2x" type="image/jpeg"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/poster_desk1x-min.webp 1x, ./images/poster_desk2x-min.webp 2x" type="image/webp"
+                                    media="(min-width: 1200px)" />
+                                <source srcset="./images/poster_desk1x-min.jpg 1x,  ./images/poster_desk2x-min.jpg 2x" type="image/jpeg"
+                                    media="(min-width: 1200px)" />
+                                <img src="./images/poster_desk1x-min.jpg" alt="igor" />
+                            </picture>
                                 
                                 <div class="gallery__overlay">
                                     <p class="gallery__overlay-text">Технокряк это современная площадка распространения коронавируса.
@@ -204,19 +202,19 @@
                         <a href="#" class="gallery__link">
                             <div class="gallery__box">
                                 <picture>
-                                    <source srcset="
-                                                            ./images/seafood-min.jpg 1x,
-                                                            ./images/seafood-min.jpg 2x
-                                                        " media="(max-width: 1200px)" />
-                                    <source srcset="
-                                                            ./images/seafood-tab-1x.jpg  1x,
-                                                            ./images/seafood-tab-2x.jpg  2x
-                                                        " media="(max-width: 768px)" />
-                                    <source srcset="
-                                                            ./images/seafood-mob-1x.jpg 1x,
-                                                            ./images/seafood-mob-2x.jpg 2x
-                                                        " media="(max-width: 480px)" />
-                                    <img src="./images/seafood-min.jpg" alt="" width="370" class="gallery__img">
+                                    <source srcset="./images/seafood_mob1x-min.webp 1x, ./images/seafood_mob2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 480px)" />
+                                    <source srcset="./images/seafood_mob1x-min.jpg 1x,  ./images/seafood_mob2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 480px)" />
+                                    <source srcset="./images/seafood_tab1x-min.webp 1x, ./images/seafood_tab2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 768px) " />
+                                    <source srcset="./images/seafood_tab1x-min.jpg 1x,  ./images/seafood_tab2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/seafood_desk1x-min.webp 1x, ./images/seafood_desk2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 1200px)" />
+                                    <source srcset="./images/seafood_desk1x-min.jpg 1x,  ./images/seafood_desk2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 1200px)" />
+                                    <img src="./images/seafood_desk1x-min.jpg" alt="seafood"/>
                                 </picture>
                                 <div class="gallery__overlay">
                                     <p class="gallery__overlay-text">Технокряк это современная площадка распространения коронавируса.
@@ -235,19 +233,19 @@
                         <a href="#" class="gallery__link">
                             <div class="gallery__box">
                                 <picture>
-                                    <source srcset="
-                                                                ./images/proect_prime-min.jpg 1x,
-                                                                ./images/proect_prime-min.jpg 2x
-                                                            " media="(max-width: 1200px)" />
-                                    <source srcset="
-                                                                ./images/project-tab-1x.jpg  1x,
-                                                                ./images/project-tab-2x.jpg  2x
-                                                            " media="(max-width: 768px)" />
-                                    <source srcset="
-                                                                ./images/project-mob-1x.jpg 1x,
-                                                                ./images/project-mob-2x.jpg 2x
-                                                            " media="(max-width: 480px)" />
-                                    <img src="./images/proect_prime-min.jpg" alt="" width="370" class="gallery__img">
+                                    <source srcset="./images/prime_mob1x-min.webp 1x, ./images/prime_mob2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 480px)" />
+                                    <source srcset="./images/prime_mob1x-min.jpg 1x,  ./images/prime_mob2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 480px)" />
+                                    <source srcset="./images/prime_tab1x-min.webp 1x, ./images/prime_tab2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 768px) " />
+                                    <source srcset="./images/prime_tab1x-min.jpg 1x,  ./images/prime_tab2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/prime_desk1x-min.webp 1x, ./images/prime_desk2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 1200px)" />
+                                    <source srcset="./images/prime_desk1x-min.jpg 1x,  ./images/prime_desk2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 1200px)" />
+                                    <img src="./images/prime_desk1x-min.jpg" alt="igor" />
                                 </picture>
                                 
                                 <div class="gallery__overlay">
@@ -266,21 +264,21 @@
                     <li  class="gallery__item">
                         <a href="#" class="gallery__link">
                             <div class="gallery__box">
-                                <picture>
-                                    <source srcset="
-                                                            ./images/proect_boxes-min.jpg 1x,
-                                                            ./images/box-min-2x.jpg 2x
-                                                        " media="(max-width: 1200px)" />
-                                    <source srcset="
-                                                            ./images/box-tab-1x.jpg  1x,
-                                                            ./images/box-tab-2x.jpg  2x
-                                                        " media="(max-width: 768px)" />
-                                    <source srcset="
-                                                            ./images/box-mob-1x.jpg 1x,
-                                                            ./images/box-mob-2x.jpg 2x
-                                                        " media="(max-width: 480px)" />
-                                    <img class="gallery__img" src="./images/proect_boxes-min.jpg" alt="">
-                                </picture>
+                            <picture>
+                                <source srcset="./images/box_mob1x-min.webp 1x, ./images/box_mob2x-min.webp 2x" type="image/webp"
+                                    media="(min-width: 480px)" />
+                                <source srcset="./images/box_mob1x-min.jpg 1x,  ./images/box_mob2x-min.jpg 2x" type="image/jpeg"
+                                    media="(min-width: 480px)" />
+                                <source srcset="./images/box_tab1x-min.webp 1x, ./images/box_tab2x-min.webp 2x" type="image/webp"
+                                    media="(min-width: 768px) " />
+                                <source srcset="./images/box_tab1x-min.jpg 1x,  ./images/box_tab2x-min.jpg 2x" type="image/jpeg"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/box_desk1x-min.webp 1x, ./images/box_desk2x-min.webp 2x" type="image/webp"
+                                    media="(min-width: 1200px)" />
+                                <source srcset="./images/box_desk1x-min.jpg 1x,  ./images/box_desk2x-min.jpg 2x" type="image/jpeg"
+                                    media="(min-width: 1200px)" />
+                                <img src="./images/box_desk1x-min.jpg" alt="igor" />
+                            </picture>
                                
                                 <div class="gallery__overlay">
                                     <p class="gallery__overlay-text">Технокряк это современная площадка распространения коронавируса.
@@ -299,19 +297,19 @@
                         <a href="#" class="gallery__link">
                             <div class="gallery__box">
                                 <picture>
-                                    <source srcset="
-                                                                ./images/display-min.jpg 1x,
-                                                                ./images/display-min-2x.jpg 2x
-                                                            " media="(max-width: 1200px)" />
-                                    <source srcset="
-                                                                ./images/display-tab-1x.jpg  1x,
-                                                                ./images/display-tab-2x.jpg  2x
-                                                            " media="(max-width: 768px)" />
-                                    <source srcset="
-                                                                ./images/display-mob-1x.jpg 1x,
-                                                                ./images/display-mob-2x.jpg 2x
-                                                            " media="(max-width: 480px)" />
-                                    <img class="gallery__img" src="./images/display-min.jpg" alt="">
+                                    <source srcset="./images/display_mob1x-min.webp 1x, ./images/display_mob2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 480px)" />
+                                    <source srcset="./images/display_mob1x-min.jpg 1x,  ./images/display_mob2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 480px)" />
+                                    <source srcset="./images/display_tab1x-min.webp 1x, ./images/display_tab2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 768px) " />
+                                    <source srcset="./images/display_tab1x-min.jpg 1x,  ./images/display_tab2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/display_desk1x-min.webp 1x, ./images/display_desk2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 1200px)" />
+                                    <source srcset="./images/display_desk1x-min.jpg 1x,  ./images/display_desk2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 1200px)" />
+                                    <img src="./images/display_desk1x-min.jpg" alt="igor" />
                                 </picture>
                                 
                                 <div class="gallery__overlay">
@@ -330,21 +328,21 @@
                     <li  class="gallery__item">
                         <a href="#" class="gallery__link">
                             <div class="gallery__box">
-                                <picture>
-                                    <source srcset="
-                                                            ./images/newspaper-min.jpg 1x,
-                                                            ./images/newspaper-min-2x.jpg 2x
-                                                        " media="(max-width: 1200px)" />
-                    <source srcset="
-                                                            ./images/newspaper-tab-1x.jpg  1x,
-                                                            ./images/newspaper-tab-2x.jpg  2x
-                                                        " media="(max-width: 768px)" />
-                    <source srcset="
-                                                            ./images/newspaper-mob-1x.jpg 1x,
-                                                            ./images/newspaper-mob-2x.jpg 2x
-                                                        " media="(max-width: 480px)" />
-                    <img class="gallery__img" src="./images/newspaper-min.jpg" alt="">
-                                </picture>
+                            <picture>
+                                <source srcset="./images/newspaper_mob1x-min.webp 1x, ./images/newspaper_mob2x-min.webp 2x" type="image/webp"
+                                    media="(min-width: 480px)" />
+                                <source srcset="./images/newspaper_mob1x-min.jpg 1x,  ./images/newspaper_mob2x-min.jpg 2x" type="image/jpeg"
+                                    media="(min-width: 480px)" />
+                                <source srcset="./images/newspaper_tab1x-min.webp 1x, ./images/newspaper_tab2x-min.webp 2x" type="image/webp"
+                                    media="(min-width: 768px) " />
+                                <source srcset="./images/newspaper_tab1x-min.jpg 1x,  ./images/newspaper_tab2x-min.jpg 2x" type="image/jpeg"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/newspaper_desk1x-min.webp 1x, ./images/newspaper_desk2x-min.webp 2x" type="image/webp"
+                                    media="(min-width: 1200px)" />
+                                <source srcset="./images/newspaper_desk1x-min.jpg 1x,  ./images/newspaper_desk2x-min.jpg 2x" type="image/jpeg"
+                                    media="(min-width: 1200px)" />
+                                <img src="./images/newspaper_desk1x-min.jpg" alt="igor" />
+                            </picture>
                                
                                 <div class="gallery__overlay">
                                     <p class="gallery__overlay-text">Технокряк это современная площадка распространения коронавируса.
@@ -363,19 +361,19 @@
                         <a href="#" class="gallery__link">
                             <div class="gallery__box">
                                 <picture>
-                                    <source srcset="
-                                                                                            ./images/lab-min.jpg 1x,
-                                                                                            ./images/lab-min-2x.jpg 2x
-                                                                                        " media="(max-width: 1200px)" />
-                                    <source srcset="
-                                                                                            ./images/lab-tab-1x.jpg  1x,
-                                                                                            ./images/lab-tab-2x.jpg  2x
-                                                                                        " media="(max-width: 768px)" />
-                                    <source srcset="
-                                                                                            ./images/lab-mob-1x.jpg 1x,
-                                                                                            ./images/lab-mob-2x.jpg 2x
-                                                                                        " media="(max-width: 480px)" />
-                                    <img class="gallery__img" src="./images/lab-min.jpg" alt="">
+                                    <source srcset="./images/lab_mob1x-min.webp 1x, ./images/lab_mob2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 480px)" />
+                                    <source srcset="./images/lab_mob1x-min.jpg 1x,  ./images/lab_mob2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 480px)" />
+                                    <source srcset="./images/lab_tab1x-min.webp 1x, ./images/lab_tab2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 768px) " />
+                                    <source srcset="./images/lab_tab1x-min.jpg 1x,  ./images/lab_tab2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/lab_desk1x-min.webp 1x, ./images/lab_desk2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 1200px)" />
+                                    <source srcset="./images/lab_desk1x-min.jpg 1x,  ./images/lab_desk2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 1200px)" />
+                                    <img src="./images/lab_desk1x-min.jpg" alt="igor" />
                                 </picture>
                                 
                                 <div class="gallery__overlay">
@@ -395,20 +393,19 @@
                         <a href="#" class="gallery__link">
                             <div class="gallery__box">
                                 <picture>
-                                    <source srcset="
-                                                                            ./images/notebook-min.jpg 1x,
-                                                                            ./images/notebook-min-2x.jpg 2x
-                                                                        "
-                                        media="(max-width: 1200px)" />
-                                    <source srcset="
-                                                                            ./images/notebook-tab-1x.jpg  1x,
-                                                                            ./images/notebook-tab-2x.jpg  2x
-                                                                        " media="(max-width: 768px)" />
-                                    <source srcset="
-                                                                            ./images/notebook-mob-1x.jpg 1x,
-                                                                            ./images/notebook-mob-2x.jpg 2x
-                                                                        " media="(max-width: 480px)" />
-                                    <img class="gallery__img" src="./images/notebook-min.jpg" alt="">
+                                    <source srcset="./images/note_mob1x-min.webp 1x, ./images/note_mob2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 480px)" />
+                                    <source srcset="./images/note_mob1x-min.jpg 1x,  ./images/note_mob2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 480px)" />
+                                    <source srcset="./images/note_tab1x-min.webp 1x, ./images/note_tab2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 768px) " />
+                                    <source srcset="./images/note_tab1x-min.jpg 1x,  ./images/note_tab2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/note_desk1x-min.webp 1x, ./images/note_desk2x-min.webp 2x" type="image/webp"
+                                        media="(min-width: 1200px)" />
+                                    <source srcset="./images/poster_desk1x-min.jpg 1x,  ./images/note_desk2x-min.jpg 2x" type="image/jpeg"
+                                        media="(min-width: 1200px)" />
+                                    <img src="./images/note_desk1x-min.jpg" alt="igor" />
                                 </picture>
                                 
                                 <div class="gallery__overlay">
@@ -497,6 +494,7 @@
         </div>
     </div>
 </footer>
+<script defer src="js/mobile-menu.js"></script>
 <script src="./js/modal.js"></script>
 </body>
 </html>

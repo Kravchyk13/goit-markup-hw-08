@@ -9,24 +9,24 @@
   @media screen and (min-width: 100px) {
     background-color: var(--primary-background-color);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../images/hero-background-mob-1x.jpg);
+      url(../images/header_mob1x-min.jpg);
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-color: var(--primary-background-color);
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/hero-background-mob-2px.jpg);
+        url(../images/header_mob2x-min.jpg);
     }
   }
 
   @media screen and (min-width: 768px) {
     background-color: var(--primary-background-color);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../images/hero-background-tab-1x.jpg);
+      url(../images/header_tab1x-min.jpg);
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-color: var(--primary-background-color);
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/hero-background-tab-2x.jpg);
+        url(../images/header_tab2x-min.jpg);
     }
   }
   @media screen and (min-width: 1200px) {
@@ -37,12 +37,12 @@
 
     background-color: var(--primary-background-color);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../images/hero-background-min.jpg);
+      url(../images/header_desk1x-min.jpg);
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-color: var(--primary-background-color);
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/hero-backround-min-2x.jpg);
+        url(../images/header_desk2x-min.jpg);
     }
   }
 }

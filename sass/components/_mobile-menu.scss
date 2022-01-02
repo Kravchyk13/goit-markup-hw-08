@@ -98,6 +98,10 @@
   color: #757575;
 }
 
+.mobile__link--current {
+  color: var(--accent-color);
+}
+
 .mobile__social {
   display: flex;
 }
