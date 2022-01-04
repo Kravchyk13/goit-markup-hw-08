@@ -10,18 +10,15 @@
     url(./images/header_mob1x-min.webp);
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    //background-color: var(--primary-background-color);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(./images/header_mob2x-min.webp);
   }
 
   @media screen and (min-width: 768px) {
-    //background-color: var(--primary-background-color);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(./images/header_tab1x-min.webp);
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      //background-color: var(--primary-background-color);
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(./images/header_tab2x-min.webp);
     }
@@ -32,12 +29,10 @@
 
     max-width: 1600px;
 
-    //background-color: var(--primary-background-color);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(./images/header_desk1x-min.webp);
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      //background-color: var(--primary-background-color);
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(./images/header_desk2x-min.webp);
     }
